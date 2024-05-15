@@ -1,6 +1,6 @@
 # Genomic Statistical Analysis Tool in R
 
-## Description
+## Description 
 This R-based tool is designed to conduct comprehensive statistical analyses on genetic data. It calculates genotype probabilities, allele distributions, and integrates statistical tests to assess differences in allele frequencies. The tool provides both descriptive and inferential statistical outputs, supported by visual data representations.
 
 ## Features
