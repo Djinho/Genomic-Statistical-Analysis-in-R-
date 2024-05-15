@@ -1,0 +1,18 @@
+Explanation of Code : 
+1: 
+In the provided code, the sample_space data frame is created to enumerate all possible genotype combinations at two independent genomic sites, and the count of the "11" genotype across these sites is calculated. The probability mass function (PMF) for this count is then manually defined and represented in pmf_df, assuming each genotype combination has an equal probability of occurrence. The knitr package is used to neatly display the PMF, highlighting the likelihood of different "11" genotype counts in a genetic study context.
+
+1.2: 
+The code creates a data frame pmf_df to define the Probability Mass Function (PMF) for a variable G, representing counts of alternative alleles, with specified probabilities for each count. It then calculates the Cumulative Distribution Function (CDF) by cumulatively summing these probabilities. Finally, it visually represents the PMF as a point plot and the CDF as a step function, providing insights into the probability distribution and cumulative likelihood of alternative allele counts.
+
+2:
+The code constructs a data frame data_2 with genotypic data, converting genotypes at two sites into a numeric count (myG) of alternative alleles for each sample. It calculates key statistical metrics: mean, standard deviation, and skewness of myG, providing insights into its distribution. Finally, it visualizes this distribution with a histogram, depicting the frequency of various allele counts, and displays the calculated metrics.
+
+2.2:
+The code defines null and alternative hypotheses comparing the means of variables G and G2, and conducts a two-sample t-test to evaluate these hypotheses. It then reports the t-test results, including the t-statistic and p-value, to determine if the null hypothesis can be rejected at a 5% significance level.
+
+3.0: 
+The code reads genetic data from a CSV file and preprocesses it for analysis, fitting two linear regression models to assess the relationship between risk and variables like genotypes, ancestry, and income. It visualizes the data using a scatter plot with regression lines for different ancestry groups, displaying the adjusted R-squared values for each model. The final analysis excludes income due to its lack of statistical significance and highlights strong correlations between risk and both genotypes and specific ancestry groups. The interpretation emphasizes the significant impact of genotypes and ancestry on risk, backed by statistical evidence and a well-fitting model.
+
+4.0:
+The code reads income data from "assignment.csv" and applies a mixture model of two normal distributions for analysis, including error handling in the likelihood function to avoid NAN errors by setting a threshold for probabilities. It estimates model parameters using maximum likelihood estimation (MLE) and assesses parameter variability and confidence intervals through bootstrapping. The script visualizes the income distribution with a histogram, overlaying density curves of the estimated mixed model distributions. Finally, it reports point estimates, standard deviations, and confidence intervals for the mixture model parameters, accompanied by a legend for clarity in the visualization.
