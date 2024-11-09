@@ -19,8 +19,7 @@ install.packages("knitr")
 install.packages("ggplot2")
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/Djinho/Genomic-Statistical-Analysis-in-R-.git
 Usage
 To execute the analysis, open the R script in your R environment (e.g., RStudio) and run the script. Ensure your input data is formatted correctly as per the examples provided in the data_samples folder.
